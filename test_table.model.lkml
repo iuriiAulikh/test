@@ -1,3 +1,3 @@
-connection: etl
-include: "*.view"
-explore: test_table {}
+explore: test_table {
+                       label: test_table
+                    }
