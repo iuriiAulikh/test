@@ -1,5 +1,5 @@
 view: test_table {
-                      sql_table_name: undefined.test_table ;;
+                      sql_table_name: some_schema.test_table ;;
 dimension_group: age {
                        type: time
                        timeframes: [time, date, week, month]
