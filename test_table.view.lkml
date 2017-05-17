@@ -1,7 +1,8 @@
 view: test_table {
                       sql_table_name: some_schema.test_table ;;
-dimension: age1 {
-                       type: string
+dimension_group: age1 {
+                       type: time
+                       timeframes: [time, date, week, month]
                        sql: test_table.age1 ;;
                     }
 dimension: created_at {
@@ -12,9 +13,8 @@ dimension: name {
                        type: string
                        sql: test_table.name ;;
                     }
-dimension_group: surname {
-                       type: time
-                       timeframes: [time, date, week, month]
+dimension: surname {
+                       type: string
                        sql: test_table.surname ;;
                     }
 measure: count {
