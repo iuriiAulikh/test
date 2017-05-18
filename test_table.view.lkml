@@ -9,9 +9,9 @@ dimension_group: created_at {
                        timeframes: [time, date, week, month]
                        sql: test_table.created_at ;;
                     }
-dimension: name {
+dimension: name1 {
                        type: string
-                       sql: test_table.name ;;
+                       sql: test_table.name1 ;;
                     }
 dimension_group: surname {
                        type: time
