@@ -8,4 +8,6 @@
         explore: nreynolds_test_11 {
                        label: nreynolds_test_11
                     }
-                   
+                   explore: nreynolds_test_6 {
+                       label: nreynolds_test_6
+                    }
