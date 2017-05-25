@@ -14,3 +14,7 @@ explore: test_user_2_test_1 {
    hidden: yes
    label: test_user_2_test_1
 }
+explore: test_user_3_test_1 {
+   hidden: yes
+   label: test_user_3_test_1
+}
