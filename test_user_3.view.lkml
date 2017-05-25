@@ -12,3 +12,17 @@ measure: count {
    type: count
 }
 }
+view: test_user_3_test_2 {
+sql_table_name: user_uploads.test_user_3_test_2 ;;
+dimension: col_1 {
+   type: number
+   sql: test_user_3_test_2.col_1 ;;
+}
+dimension: col_2 {
+   type: string
+   sql: test_user_3_test_2.col_2 ;;
+}
+measure: count {
+   type: count
+}
+}
