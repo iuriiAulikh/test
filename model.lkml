@@ -26,3 +26,7 @@ explore: test_user_3_test_3 {
    hidden: yes
    label: test_user_3_test_3
 }
+explore: nreynolds_test_2 {
+   hidden: yes
+   label: nreynolds_test_2
+}
