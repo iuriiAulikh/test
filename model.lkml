@@ -22,3 +22,7 @@ explore: test_user_3_test_2 {
    hidden: yes
    label: test_user_3_test_2
 }
+explore: test_user_3_test_3 {
+   hidden: yes
+   label: test_user_3_test_3
+}
